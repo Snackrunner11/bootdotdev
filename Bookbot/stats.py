@@ -22,17 +22,15 @@ def letter_count(text):
             letters[letter] = letters[letter] + 1
     return letters
 
-def dict_to_list_with_dicts(letters):
-    list_with_dict = []
-    for letter,value in letters.items():
-        list_with_dict.append(
-            {"char":letter, "num": value}
-            )
-    return list_with_dict
+def sort_on(character_tuple):
+    return character_tuple[1]
 
-def sort_on(list_with_dict):
-    return list_with_dict["num"]
-
-def sort_biggest_to_smallest(list_with_dict):
-    list_with_dict.sort(reverse=True, key=sort_on)
-    return list_with_dict
+def chars_dict_to_sorted_list(letters):
+    list_with_tuples = []
+    
+    for letter, value in letters.items():
+        list_with_tuples.append((letter, value))
+        
+    sorted_list = sorted(list_with_tuples, reverse=True, key=sort_on)
+    
+    return sorted_list
