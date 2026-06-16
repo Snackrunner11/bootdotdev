@@ -1,6 +1,6 @@
-# Learn Git – Boot.dev Curriculum Exercise Repository
+# Learn Git
 
-Welcome to my **Learn Git** project space! This directory serves as a dedicated hands-on workspace documenting my journey through the foundational Git and version control curriculum on [Boot.dev](https://www.boot.dev). 
+Welcome to my **Learn Git** project space! This directory serves as a dedicated hands-on workspace documenting my journey through the foundational Git and version control curriculum
 
 The goal of this module is to transition from basic file management to mastering professional tracking, branching, merging, and remote repository collaboration using Git via the command line.
 
