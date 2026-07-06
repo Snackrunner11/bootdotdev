@@ -1,15 +1,16 @@
 from circleshape import *
 from constants import *
-from main import *
 
 
 class Player (CircleShape):
     
     def __init__(self,x,y):
+        super().__init__(x,y,PLAYER_RADIUS)
         self.x = x
         self.y = y
         self.rotation = 0
-        super().__init__(self.x,self.y,PLAYER_RADIUS)
+
+
 
 
 
