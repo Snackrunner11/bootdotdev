@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 game_state.jsonl
 .python-version
+game_events.jsonl
